@@ -3,8 +3,12 @@ $(document).ready(function(){
         // sticky navbar on scroll script
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
+            $('.i1').addClass("dis");
+            $('.i2').removeClass("dis");
         }else{
             $('.navbar').removeClass("sticky");
+            $('.i1').removeClass("dis");
+            $('.i2').addClass("dis");
         }
         
         // scroll-up button show/hide script
