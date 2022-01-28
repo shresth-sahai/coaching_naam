@@ -431,7 +431,7 @@ section .title::after{
     content: "who are with me";
 }
 .teams .carousel .card{
-    background: #999;
+    background: transparent;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
