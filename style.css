@@ -306,7 +306,7 @@ section .title::after{
 }
 .projects .serv-content .card{
     width: calc(33% - 20px);
-    min-height: 350px;
+    min-height: 400px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -467,6 +467,10 @@ section .title::after{
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
+}
+.team_head{
+    margin: 10px 70px;
+    color: #00b894;
 }
 .owl-dots{
     text-align: center;
@@ -732,9 +736,17 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    .team_head {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel{
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 350px) {
-    .projects .title::after {
+    .projects .title::after, .teams .title::after {
         bottom: -25px;
     }
 }
