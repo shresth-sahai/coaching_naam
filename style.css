@@ -768,7 +768,13 @@ footer span a:hover{
         margin-bottom: 20px;
     }
 }
-@media (max-width: 370px) {
+@media (max-width:426px)
+{
+    #xyz2::after {
+        bottom: -25px;
+    }
+}
+@media (max-width: 390px) {
     .projects .title::after, .teams .title::after, section .title::after {
         bottom: -25px;
     }
@@ -777,5 +783,14 @@ footer span a:hover{
     }
     canvas {
         height: 200vh;
+    }
+    #xyz::after{
+        bottom: -8px;
+    }
+}
+@media (max-width:350px)
+{
+    .teams .title::after {
+        bottom: -25px;
     }
 }
