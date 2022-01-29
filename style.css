@@ -64,6 +64,10 @@ canvas {
     align-items: center;
     justify-content: space-between;
 }
+.projects .serv-content
+{
+    justify-content: space-around
+}
 .contact .contact-content{
     align-items: flex-start;
 }
@@ -306,7 +310,7 @@ section .title::after{
 }
 .projects .serv-content .card{
     width: calc(33% - 20px);
-    min-height: 400px;
+    min-height: 475px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -314,6 +318,9 @@ section .title::after{
     margin-bottom: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+#features .card{
+    min-height: 360px;
 }
 .projects .serv-content .card:hover{
     background: #00b894;
@@ -336,6 +343,16 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.projects .serv-content .card ul{
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 10px 15px;
+}
+.projects .serv-content .card ul li{
+    width: fit-content;
 }
 .sourceCode{
     text-decoration: none;
