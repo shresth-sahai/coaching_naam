@@ -95,7 +95,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: ##00b894;
+    color: #00b894;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
