@@ -304,10 +304,10 @@ section .title::after{
 }
 .projects .title::after{
     background: #111;
-    content: "what we provide";
+    content: "what do we provide";
 }
 #title_feature::after {
-    content: "what we Serve";
+    content: "what do we Serve";
 }
 #aboutus .title::after{
     content: "Our Vision";
@@ -449,7 +449,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who are with me";
+    content: "who are with us";
 }
 .teams .carousel .card{
     background: transparent;
@@ -555,7 +555,9 @@ section .title::after{
 .contact .contact-content .info .sub-title a {
     color: inherit;
 }
-
+.contact .contact-content .info .sub-title a:hover {
+    color: #00b894;
+}
 
 .contact .right form .fields{
     display: flex;
@@ -769,6 +771,9 @@ footer span a:hover{
 @media (max-width: 370px) {
     .projects .title::after, .teams .title::after, section .title::after {
         bottom: -25px;
+    }
+    #aboutus .title::after, .contact .title::after{
+        bottom: -8px;
     }
     canvas {
         height: 200vh;
