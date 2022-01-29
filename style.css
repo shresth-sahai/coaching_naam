@@ -310,7 +310,7 @@ section .title::after{
     content: "what we Serve";
 }
 #aboutus .title::after{
-    content: "Our Believes";
+    content: "Our Vision";
 }
 .projects .serv-content .card{
     width: calc(33% - 20px);
@@ -324,7 +324,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 #features .card{
-    min-height: 360px;
+    min-height: 340px;
 }
 .projects .serv-content .card:hover{
     background: #00b894;
