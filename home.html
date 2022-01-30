@@ -190,10 +190,12 @@
         </div>
     </section>
 
-    <section style="margin:0;padding: 10px 0px; background-color: #00b894;">
+    <section style="margin:0;padding: 10px 0px; background-color: #00b894; z-index:5;position: relative;">
         <div class="row">
             <div class="col-8 col-md-2 mx-auto">
-                <a href="https://calendly.com/coderoider/coderoider-counselling" target="_blank"><button class="btn btn-dark">Book a session with Experts</button></a>
+                <!-- <a href="https://calendly.com/coderoider/coderoider-counselling" target="_blank"> -->
+                    <button class="btn btn-dark" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/coderoider/coderoider-counselling'});return false;">Book a session with Experts</button>
+                <!-- </a> -->
             </div>
         </div>
     </section>
@@ -487,7 +489,7 @@
         </div>
     </section>
 
-    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/coderoider/coderoider-counselling'});return false;">Schedule time with me</a>
+    <!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/coderoider/coderoider-counselling'});return false;">Schedule time with me</a> -->
 
 
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>

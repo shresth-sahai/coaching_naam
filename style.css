@@ -85,7 +85,7 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: 200px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
@@ -790,12 +790,12 @@ footer span a:hover{
     canvas {
         height: 200vh;
     }
-    #xyz::after{
-        bottom: -8px;
-    }
 }
 @media (max-width:350px)
 {
+    #xyz::after{
+        bottom: -25px;
+    }
     .teams .title::after {
         bottom: -25px;
     }
