@@ -187,7 +187,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .scroll-up-btn.show{
-    bottom: 30px;
+    bottom: 70px;
     opacity: 1;
     pointer-events: auto;
 }
@@ -304,10 +304,11 @@ section .title::after{
 }
 .projects .title::after{
     background: #111;
+    /* width: fit-content; */
     content: "what do we provide";
 }
 #title_feature::after {
-    content: "what do we Serve";
+    content: "what do we serve";
 }
 #aboutus .title::after{
     content: "Our Vision";
@@ -492,6 +493,11 @@ section .title::after{
 .team_head{
     margin: 10px 70px;
     color: #00b894;
+    width: fit-content;
+}
+.team-align{
+    display: flex;
+    justify-content: center;
 }
 .owl-dots{
     text-align: center;
