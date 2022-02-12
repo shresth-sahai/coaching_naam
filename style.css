@@ -638,6 +638,30 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+#act::before{
+    /* content: ; */
+}
+#act::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 200px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+#act::after{
+    content: "Going On";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 5px;
+    background: #00b894;
+    transform: translateX(-50%);
+}
 
 
 /* responsive media query start */
@@ -778,6 +802,11 @@ footer span a:hover{
 {
     #xyz2::after {
         bottom: -25px;
+    }
+    
+    #drop{
+        position: relative;
+    left: 24px;
     }
 }
 @media (max-width: 390px) {
